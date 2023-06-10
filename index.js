@@ -36,6 +36,4 @@ scoreE1.innerText=`score: ${score}`
  function updateLocalStorage(){
     localStorage.setItem("score",JSON.stringify(score))
  }
-
- 
  
